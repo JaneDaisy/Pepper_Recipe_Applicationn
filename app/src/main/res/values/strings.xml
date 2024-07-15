@@ -15,6 +15,7 @@
     <string name="search">search</string>
     <string name="submit">submit</string>
     <string name="write_a_comment">write_a_comment</string>
+<<<<<<< HEAD
     <string name="ingredient_image">Image of the ingredient</string>
     <string name="total_price">Total Price: $%1$s</string>
     <string name="card_number">Card Number</string>
@@ -40,5 +41,7 @@
         <item>snack</item>
         <item>drink</item>
     </string-array>
+=======
+>>>>>>> d13b62df3996ad188ac4a333796ee4a350138564
 
 </resources>
