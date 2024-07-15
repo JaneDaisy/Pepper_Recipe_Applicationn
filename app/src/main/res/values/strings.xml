@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Pepper Recipe</string>
+    <string name="recipeName">Recipe Name</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="recipeIngredients">Ingredients</string>
+    <string name="nutrition">nutrition</string>
+    <string name="settings_title">Settings</string>
+    <string name="Carbs">Carbs</string>
+    <string name="Fats">Fats</string>
+    <string name="Calories">Calories</string>
+    <string name="Proteins">Proteins</string>
+    <string name="Reviews">Reviews</string>
+    <string name="nutrition_title">Nutrition Facts</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search">search</string>
+    <string name="submit">submit</string>
+    <string name="write_a_comment">write_a_comment</string>
+    <string name="ingredient_image">Image of the ingredient</string>
+    <string name="total_price">Total Price: $%1$s</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date_mm_yy">Expiry Date (MM/YY)</string>
+    <string name="cvv">CVV</string>
+    <string name="save_card_info">Save Card Info</string>
+    <string name="PIN">PIN</string>
+    <string name="Card_Holder_Name">Card Holder Name</string>
+    <string name="api_key">6dd18cdb96034f3ebe9517fcd90b3a59</string>
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>fingerfood</item>
+        <item>snack</item>
+        <item>drink</item>
+    </string-array>
+
+</resources>

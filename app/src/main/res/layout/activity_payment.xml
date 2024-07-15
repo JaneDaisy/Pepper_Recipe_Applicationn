@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPaymentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Payment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewUsernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:layout_below="@id/textViewPaymentTitle"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_below="@id/textViewUsernameLabel"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewAddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shipping Address:"
+        android:layout_below="@id/textViewUsername"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Main St, City, Country"
+        android:layout_below="@id/textViewAddressLabel"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonEditAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Address"
+        android:layout_below="@id/textViewAddress"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textViewTotalAmountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount:"
+        android:layout_below="@id/buttonEditAddress"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:layout_below="@id/textViewTotalAmountLabel"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonConfirmPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Payment"
+        android:layout_below="@id/textViewTotalAmount"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

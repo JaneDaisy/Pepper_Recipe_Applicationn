@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewCreditCard"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/credit_card_image" />
+
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_number"
+        android:inputType="number"
+        android:layout_below="@id/imageViewCreditCard"/>
+    <EditText
+        android:id="@+id/editTextCardHolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Card_Holder_Name"
+        android:inputType="text"
+        android:layout_below="@id/editTextCardNumber"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expiry_date_mm_yy"
+        android:inputType="date"
+        android:layout_below="@id/editTextCardHolderName"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cvv"
+        android:inputType="number"
+        android:layout_below="@id/editTextExpiryDate"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/PIN"
+        android:inputType="numberPassword"
+        android:layout_below="@id/editTextCVV"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveCardInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_card_info"
+        android:layout_below="@id/editTextPin"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
