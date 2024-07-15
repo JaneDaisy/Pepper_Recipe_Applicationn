@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pepper Recipe</string>
+    <string name="recipeName">Recipe Name</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="recipeIngredients">Ingredients</string>
+    <string name="nutrition">nutrition</string>
+    <string name="settings_title">Settings</string>
+    <string name="Carbs">Carbs</string>
+    <string name="Fats">Fats</string>
+    <string name="Calories">Calories</string>
+    <string name="Proteins">Proteins</string>
+    <string name="Reviews">Reviews</string>
+    <string name="nutrition_title">Nutrition Facts</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search">search</string>
+    <string name="submit">submit</string>
+    <string name="write_a_comment">write_a_comment</string>
+
+</resources>
